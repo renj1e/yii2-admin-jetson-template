@@ -1,0 +1,21 @@
+{
+    "name": "renj1e/yii2-admin-jetson-template",
+    "description": "Yii2 Admin Template using Bootstrap",
+    "type": "library",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "renj1e",
+            "email": "renjelc@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "renj1e\\": ""
+        }
+    }
+}
