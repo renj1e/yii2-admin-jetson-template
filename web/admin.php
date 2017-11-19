@@ -9,7 +9,7 @@ use backend\assets\jetson\AdminAsset;
 AppAsset::register($this);
 AdminAsset::register($this);
 
-$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/renj1e/yii2-kosmo-template/src/');
+$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/renj1e/yii2-admin-jetson-template/src/');
 
 ?>
 <?php $this->beginPage() ?>

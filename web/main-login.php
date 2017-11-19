@@ -1,12 +1,14 @@
 <?php
-use yii\helpers\Html;
-
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-backend\assets\AppAsset::register($this);
-backend\assets\kosmo\KosmoAsset::register($this);
-backend\assets\kosmo\KosmoSrcAsset::register($this);
+use yii\helpers\Html;
+use backend\assets\AppAsset;
+use backend\assets\jetson\AdminAsset;
+
+AppAsset::register($this);
+AdminAsset::register($this);
+
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -18,7 +20,7 @@ backend\assets\kosmo\KosmoSrcAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body class="login-page">
+<body>
 
 <?php $this->beginBody() ?>
 
